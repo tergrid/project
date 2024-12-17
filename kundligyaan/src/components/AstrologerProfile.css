@@ -1,0 +1,256 @@
+/*General Styles */
+body {
+    font-family: inherit;
+    margin: 0;
+    background-color:#eeeeee;
+    color: #333;
+  }
+  .container {
+    display: flex;
+  }
+  /*SIDEBAR*/
+  .sidebar {
+    width: 20%;
+    background-color: #fff6ed;
+    color: #5F4132;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight:900;
+    font-size: 25px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    margin-bottom: 15px;
+  }
+  .sidebar ul li a {
+    color: #5F4132;
+    text-decoration: none;
+  }
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  .tools button{
+      background-color:#FFA502;
+      color:#5F4132;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 3px;
+      font-size: 16px;
+    }
+    .tools button:hover {
+      background: linear-gradient(to right, #ffa502, #ff7e00);
+      transform: scale(1.05);
+    } 
+
+    /*MAIN CONTENT*/
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  .hero {
+    background-color: ECA655;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 8px #333;
+  }
+  .hero-profile {
+    display: flex;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    background-color:#FFA500;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .profile-info h1 {
+    margin-bottom: 10px;
+  }
+  .profile-info p {
+    margin: 5px 0;
+  }
+  .cards-row1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .cards-row2 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .Review{
+    box-shadow:10px 4px 10px rgba(0, 0, 0, 0.3); 
+    height:260px;
+    margin-top: 15px;
+  }
+  .card {
+    background-color: #FFF6ED;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    color:#5F4132;
+    font-size: 17px;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card h3 {
+    margin-bottom: 15px;
+  }
+  .card p {
+    margin: 10px 0;
+  }
+  .card button {
+    background-color:#FFA502;
+      color:#5F4132;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 3px;
+      font-size: 16px;
+    }
+    .card button:hover {
+      background: linear-gradient(to right, #ffa502, #ff7e00);
+      transform: scale(1.05);
+    }
+    .uln p:hover{
+      text-decoration: underline;
+    }
+    
+    /* Chat Button */
+    .floating-buttons{
+      display: block;
+      margin-top: 40px;
+    }
+.chat-button,
+.help-button,
+.call-button {
+  display: block;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFA500; /* Bright orange */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.chat-button:hover,
+.help-button:hover,
+.call-button:hover {
+  background-color: #FF8C00; /* Darker orange */
+  transform: scale(1.1);
+}
+.chat-button img,
+.help-button img,
+.call-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+/*FEEDBACK SECTION*/
+.services-section {
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+.services-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:#5F4132;
+}
+.services-carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.services-carousel {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease;
+}
+.service-card {
+  min-width: 250px;
+  background-color: #FFF6ED;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    color:#5F4132;
+    font-size: 17px;
+}
+.service-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 9px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 17px;
+  color: #666;
+}
+
+.carousel-btn {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+  border: 1px solid #ccc; /* Add a border for better contrast */
+  border-radius: 50%; /* Circular buttons */
+  font-size: 1.5rem;
+  color: #333; /* Dark color for the arrows */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left-btn {
+  left: 10px; /* Adjust to bring it inside the container */
+}
+
+.right-btn {
+  right: 10px; /* Adjust to bring it inside the container */
+}
+
+.carousel-btn:hover {
+  background-color: #fff; /* Change background on hover for emphasis */
+  color: #000; /* Darker color for hover */
+  border-color: #000;
+}
+
+
