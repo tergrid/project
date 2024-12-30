@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4f4c97, #2d84b3);
+    color: white;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  select, button {
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    transition: background 0.3s, transform 0.2s ease;
+  }
+  
+  select:hover, button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+  
+  button {
+    background: #ff8c42;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ffa75e;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .result-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ff8c42;
+  }
+  
+  .result-card p {
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  .score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff8c42;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 1.1rem;
+  }
+  
+  .result-summary {
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  

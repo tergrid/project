@@ -1,0 +1,17 @@
+.result-card {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .result-card h4 {
+    color: #ff6f00;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: #f44336;
+  }
+  

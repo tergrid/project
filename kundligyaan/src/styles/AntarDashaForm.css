@@ -1,0 +1,39 @@
+.form-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .antar-dasha-form label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .antar-dasha-form input,
+  .antar-dasha-form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .antar-dasha-form button {
+    background-color: #ff8c42;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .antar-dasha-form button:hover {
+    background-color: #ffa75e;
+  }
+  

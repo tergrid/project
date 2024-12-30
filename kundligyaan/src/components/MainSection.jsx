@@ -1,4 +1,4 @@
-
+import '../styles/MainSection.css';
 import Baba from "../src/assets/baba.webp";
 import ChatAstro from "../src/assets/chatwithastro.png";
 import CallAstro from "../src/assets/callwithastro.png";

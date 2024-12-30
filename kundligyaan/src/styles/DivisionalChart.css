@@ -1,0 +1,117 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4f4c97, #2d84b3);
+    color: white;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input, select, button {
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    transition: background 0.3s, transform 0.2s ease;
+  }
+  
+  button {
+    background: #ff8c42;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ffa75e;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  #chart-container {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .planet-list {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  
+  .planet-item {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .planet-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .planet-item strong {
+    color: #ff8c42;
+  }
+  
+  .planet-item .planet-detail {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #f1f1f1;
+  }
+  
+  .planet-item .planet-detail span {
+    font-weight: bold
+  } 

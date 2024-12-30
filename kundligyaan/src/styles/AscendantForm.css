@@ -1,0 +1,52 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #2c387e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .ascendant-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .ascendant-form input,
+  .ascendant-form button,
+  .ascendant-form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  .ascendant-form button {
+    background-color: #ff6f00;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .ascendant-form button:hover {
+    background-color: #ff5722;
+  }
+  
+  .time-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .time-container select {
+    width: 48%;
+  }
+  
