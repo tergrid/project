@@ -1,9 +1,9 @@
 import '../styles/MainSection.css';
-import Baba from "../src/assets/baba.webp";
-import ChatAstro from "../src/assets/chatwithastro.png";
-import CallAstro from "../src/assets/callwithastro.png";
-import Shop from "../src/assets/shop.png";
-import Puja from "../src/assets/puja.jpg";
+import Baba from "../assets/baba.webp";
+import ChatAstro from "../assets/chatwithastro.png";
+import CallAstro from "../assets/callwithastro.png";
+import Shop from "../assets/shop.png";
+import Puja from "../assets/puja.jpg";
 
 function MainSection() {
   return (

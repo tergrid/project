@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import MainSection from "./MainSection";
-import AstrologyCarousel from "./AstrologyCarousel";
+import MainSection from "./components/MainSection";
+import AstrologyCarousel from "./components/AstrologyCarousel";
 import Footer from "./Footer";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
-import AstrologerProfile from "./AstrologerProfile";
-import PastConsultations from "./PastConsultations";
-import AppointmentHistory from "./AppointmentHistory";
-import SupportPage from "./SupportPage";
-import YearlyHoroscope from "./YearlyHoroscope";
+import AstrologerProfile from "./components/AstrologerProfile";
+import PastConsultations from "./components/PastConsultations";
+import AppointmentHistory from "./components/AppointmentHistory";
+import SupportPage from "./components/SupportPage";
+import YearlyHoroscope from "./components/YearlyHoroscope";
 import './App.css';
 
 function App() {

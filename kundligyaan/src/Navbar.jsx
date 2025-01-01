@@ -1,7 +1,6 @@
 
 import KundliGyaanLogo from "../src/assets/KundliGyaan_logo.png";
-
-
+import "./styles/Navbar.css";
 
 const Navbar = () => {
     return (

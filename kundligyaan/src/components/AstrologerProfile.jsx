@@ -1,5 +1,5 @@
 import React from "react";
-import "./AstrologerProfile.css";
+import "../styles/AstrologerProfile.css";
 
 const AstrologerProfile = () => {
   return (

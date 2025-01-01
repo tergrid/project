@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './PastConsultations.css'; // Add a separate CSS file for styling
+import '../styles/PastConsultations.css'; // Add a separate CSS file for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faPhone, faIdBadge } from '@fortawesome/free-solid-svg-icons';
 

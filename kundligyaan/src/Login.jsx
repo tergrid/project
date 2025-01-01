@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash, FaGoogle } from "react-icons/fa";
-import "./Login.css"; // Import the external CSS file
+import "./styles/Login.css"; // Import the external CSS file
 
 function Login() {
   const [email, setEmail] = useState("");
